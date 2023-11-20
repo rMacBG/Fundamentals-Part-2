@@ -1,20 +1,20 @@
 ﻿using System.Reflection.Metadata.Ecma335;
 
 namespace AdvertismentMessage
-{               
+{
     class Advert
     {
         public string[] Phrases { get; set; }
-        public string[] Events{ get; set; }
+        public string[] Events { get; set; }
         public string[] Authors { get; set; }
         public string[] Cities { get; set; }
     }
     public class Program
-    {        
+    {
         static void Main()
         {
             Random rnd = new Random();
-            
+
             Advert ad = new Advert();
             ad.Phrases = new[]
             {

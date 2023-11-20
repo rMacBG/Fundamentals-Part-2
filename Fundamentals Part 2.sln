@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Randomize Words", "Randomiz
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BigFactorial", "BigFactorial\BigFactorial.csproj", "{5452CF10-C6B3-4BF4-8421-89DD81A5EEA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvertismentMessage", "AdvertismentMessage\AdvertismentMessage.csproj", "{04C5BB94-7B3E-4702-9A4E-26E0E1B39C48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdvertismentMessage", "AdvertismentMessage\AdvertismentMessage.csproj", "{04C5BB94-7B3E-4702-9A4E-26E0E1B39C48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Articles", "Articles\Articles.csproj", "{DA2A1BBA-9116-4169-8A59-E409F0B26141}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{04C5BB94-7B3E-4702-9A4E-26E0E1B39C48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04C5BB94-7B3E-4702-9A4E-26E0E1B39C48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04C5BB94-7B3E-4702-9A4E-26E0E1B39C48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA2A1BBA-9116-4169-8A59-E409F0B26141}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA2A1BBA-9116-4169-8A59-E409F0B26141}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA2A1BBA-9116-4169-8A59-E409F0B26141}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA2A1BBA-9116-4169-8A59-E409F0B26141}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
