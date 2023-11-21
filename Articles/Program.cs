@@ -26,10 +26,6 @@
         {
             Title = newTitle;
         }
-        //public override string ToString()
-        //{
-        //    return $"{Title} - {Content}: {Author}";
-        //}
         public override string ToString()
         {
             return $"{Title} - {Content}: {Author}";
