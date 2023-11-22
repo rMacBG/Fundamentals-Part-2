@@ -14,8 +14,7 @@ namespace Word_Synonyms
                 string synonym = Console.ReadLine();
                 if (words.ContainsKey(word) == false)
                 {
-                    words.Add(word, new List<string>());
-                    
+                    words.Add(word, new List<string>()); 
                 }
                 else
                 {
