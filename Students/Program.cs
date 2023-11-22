@@ -34,7 +34,9 @@
 
                 students.Add(student);
             }
-           students = students.OrderByDescending(student => student.Grade).ToList();
+           students = students
+                .OrderByDescending(student => student.Grade)
+                .ToList();
             foreach (Student student in students)
             {
                 Console.WriteLine(student);
