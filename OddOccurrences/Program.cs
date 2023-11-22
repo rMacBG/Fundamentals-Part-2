@@ -20,7 +20,11 @@
             }
             foreach (var count in counts)
             {
-                Console.WriteLine(count.Key + " ");
+                if (count.Value % 2 != 0)
+                {
+                    Console.WriteLine(count.Key + " ");
+                }
+                
             }
         }
     }
