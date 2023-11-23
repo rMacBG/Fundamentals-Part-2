@@ -37,6 +37,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Associative Arrays Exercise
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Count Chars in a String", "Count Chars in a String\Count Chars in a String.csproj", "{9EE74CE7-FB58-47D4-8F8F-C61BC128F88D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinerTask", "MinerTask\MinerTask.csproj", "{A1C7E723-9E02-427D-B5FF-3615985E5F8E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -95,6 +97,10 @@ Global
 		{9EE74CE7-FB58-47D4-8F8F-C61BC128F88D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9EE74CE7-FB58-47D4-8F8F-C61BC128F88D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9EE74CE7-FB58-47D4-8F8F-C61BC128F88D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1C7E723-9E02-427D-B5FF-3615985E5F8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1C7E723-9E02-427D-B5FF-3615985E5F8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1C7E723-9E02-427D-B5FF-3615985E5F8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1C7E723-9E02-427D-B5FF-3615985E5F8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -114,6 +120,7 @@ Global
 		{EDB55443-FD86-4076-AC47-242E4DC599DB} = {92F0B642-1251-4948-828A-FDC047EA3604}
 		{EC6DE5B8-2BFE-43E8-9351-21C75850D042} = {92F0B642-1251-4948-828A-FDC047EA3604}
 		{9EE74CE7-FB58-47D4-8F8F-C61BC128F88D} = {EC6DE5B8-2BFE-43E8-9351-21C75850D042}
+		{A1C7E723-9E02-427D-B5FF-3615985E5F8E} = {EC6DE5B8-2BFE-43E8-9351-21C75850D042}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5DB27BBC-5133-411D-AF05-4A21F290C200}
