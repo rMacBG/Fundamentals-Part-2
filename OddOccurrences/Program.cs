@@ -5,7 +5,10 @@
         static void Main(string[] args)
         {
             //OddOccurencies();
-            OddOccurenciesTakeTwo();
+            //OddOccurenciesTakeTwo();
+            //LinqWayToSolve();
+            
+
         }
         public static void OddOccurencies()
         {
@@ -56,6 +59,17 @@
                     Console.Write($"{word.Key} ");
                 }
             }
+        }
+        public static void LinqWayToSolve()
+        {
+            Console.WriteLine(string.Join(" ", Console.ReadLine()
+                .Split()
+                .Select(x => x.ToLower())
+                .GroupBy(x => x)
+                .Where(x => x.Count() % 2 == 1)
+                .SelectMany(x => x)
+                .Distinct()
+                .ToList()));
         }
     }
 }

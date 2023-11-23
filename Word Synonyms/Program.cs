@@ -8,7 +8,7 @@ namespace Word_Synonyms
         static void Main(string[] args)
         {
             WordSynonyms();
-            WordSynonymsAnotherWay();
+           // WordSynonymsAnotherWay();
         }
 
         
