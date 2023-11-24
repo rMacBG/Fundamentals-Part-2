@@ -31,15 +31,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AssociativeArrays", "Associ
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Objects and Classes", "Objects and Classes", "{A6A06CAF-5E4A-4266-951B-189D318662F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordFilter", "WordFilter\WordFilter.csproj", "{EDB55443-FD86-4076-AC47-242E4DC599DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordFilter", "WordFilter\WordFilter.csproj", "{EDB55443-FD86-4076-AC47-242E4DC599DB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Associative Arrays Exercises", "Associative Arrays Exercises", "{EC6DE5B8-2BFE-43E8-9351-21C75850D042}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Count Chars in a String", "Count Chars in a String\Count Chars in a String.csproj", "{9EE74CE7-FB58-47D4-8F8F-C61BC128F88D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Count Chars in a String", "Count Chars in a String\Count Chars in a String.csproj", "{9EE74CE7-FB58-47D4-8F8F-C61BC128F88D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinerTask", "MinerTask\MinerTask.csproj", "{A1C7E723-9E02-427D-B5FF-3615985E5F8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinerTask", "MinerTask\MinerTask.csproj", "{A1C7E723-9E02-427D-B5FF-3615985E5F8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orders", "Orders\Orders.csproj", "{6A181BF7-7708-4CB8-9F1A-7B4B9F995A4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Orders", "Orders\Orders.csproj", "{6A181BF7-7708-4CB8-9F1A-7B4B9F995A4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftuniParking", "SoftuniParking\SoftuniParking.csproj", "{90E511EE-F32B-4724-A9B2-8677646B1455}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -107,6 +109,10 @@ Global
 		{6A181BF7-7708-4CB8-9F1A-7B4B9F995A4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A181BF7-7708-4CB8-9F1A-7B4B9F995A4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A181BF7-7708-4CB8-9F1A-7B4B9F995A4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90E511EE-F32B-4724-A9B2-8677646B1455}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90E511EE-F32B-4724-A9B2-8677646B1455}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90E511EE-F32B-4724-A9B2-8677646B1455}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90E511EE-F32B-4724-A9B2-8677646B1455}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -128,6 +134,7 @@ Global
 		{9EE74CE7-FB58-47D4-8F8F-C61BC128F88D} = {EC6DE5B8-2BFE-43E8-9351-21C75850D042}
 		{A1C7E723-9E02-427D-B5FF-3615985E5F8E} = {EC6DE5B8-2BFE-43E8-9351-21C75850D042}
 		{6A181BF7-7708-4CB8-9F1A-7B4B9F995A4C} = {EC6DE5B8-2BFE-43E8-9351-21C75850D042}
+		{90E511EE-F32B-4724-A9B2-8677646B1455} = {EC6DE5B8-2BFE-43E8-9351-21C75850D042}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5DB27BBC-5133-411D-AF05-4A21F290C200}
