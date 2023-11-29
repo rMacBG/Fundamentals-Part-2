@@ -73,6 +73,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplyBigNumber", "Multip
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplaceRepeatingStrings", "ReplaceRepeatingStrings\ReplaceRepeatingStrings.csproj", "{02B0E0A1-8720-4A32-834B-75F2F08ED4D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringExplosion", "StringExplosion\StringExplosion.csproj", "{B4951692-338A-49A5-9F30-2038BA10E073}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RegEx", "RegEx", "{69231446-4407-4EFC-993C-5B7B17151118}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -199,6 +203,10 @@ Global
 		{02B0E0A1-8720-4A32-834B-75F2F08ED4D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02B0E0A1-8720-4A32-834B-75F2F08ED4D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02B0E0A1-8720-4A32-834B-75F2F08ED4D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4951692-338A-49A5-9F30-2038BA10E073}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4951692-338A-49A5-9F30-2038BA10E073}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4951692-338A-49A5-9F30-2038BA10E073}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4951692-338A-49A5-9F30-2038BA10E073}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -236,6 +244,7 @@ Global
 		{AA23201B-84B4-46B0-879A-2EE80B797DE5} = {506C18CB-596F-4D1E-84CC-6C575E7CC26D}
 		{80AECEEC-B35A-42B4-A48B-42F25669012B} = {506C18CB-596F-4D1E-84CC-6C575E7CC26D}
 		{02B0E0A1-8720-4A32-834B-75F2F08ED4D3} = {506C18CB-596F-4D1E-84CC-6C575E7CC26D}
+		{B4951692-338A-49A5-9F30-2038BA10E073} = {506C18CB-596F-4D1E-84CC-6C575E7CC26D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5DB27BBC-5133-411D-AF05-4A21F290C200}
